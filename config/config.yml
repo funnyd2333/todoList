@@ -1,0 +1,6 @@
+APP:
+  name: todolist
+  port: :3001
+
+MYSQL:
+  dsn: root:123456@tcp(127.0.0.1:3306)/todolist?charset=utf8mb4&parseTime=True&loc=Local
